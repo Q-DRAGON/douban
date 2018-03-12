@@ -4,4 +4,4 @@
 ## 介绍
 node.js爬的豆瓣数据, Echarts做的图表
 ## 预览
-[DEMO](http://hugohua.gitee.io/waterfall)
+[DEMO](http://hugohua.gitee.io/douban/douban.html)
