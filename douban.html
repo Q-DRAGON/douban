@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+        <link rel="stylesheet" href="css/jquery.fullPage.css">
+        <title>豆瓣图表</title>
+        <style>
+        	#container {
+        		background: #2C2D3D;
+        	}
+
+            .douban-echarts {
+                width: 100%;
+                height:100vh;
+            }
+        </style>
+    </head>
+    <body>
+    	<div id='container'>
+		    <div id="fullpage">
+			    <div class="section">
+				        <div id="douban-bar" class='douban-echarts'></div>
+			    </div>
+			    <div class="section">
+					    <div id="douban-pie" class='douban-echarts'></div>
+			    </div>
+			</div>
+		</div>
+    </body>
+    <script src="js/echarts.min.js"></script>
+    <script src='js/myEcharts.js'></script>
+    <script src="js/data.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script>
+    	$(function(){
+    		$('#fullpage').fullpage()
+		})
+    </script>
+</html>
